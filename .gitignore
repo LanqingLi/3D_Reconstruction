@@ -1,0 +1,108 @@
+J project files
+.idea
+*.iml
+out
+gen
+nohup.out
+### Vim template
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~*
+
+### IPythonNotebook template
+# Temporary data
+.ipynb_checkpoints/
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+excel_result/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+*result
+DATA
+log/logger.txt
+nohup.out
+
+# Sphinx documentation
+docs/_build/
+doc/
+
+# PyBuilder
+target/
+
+**/*.pyc
+**/*.ipynb
+**/*.params
+**/*.json
+**/*.npy
+**/*.png
+**/*.xls
+**/*.ods
+**/*.dcm
+.vscode/
+json/
+result/
+model/
+predict/
+pred_result/
+saved_origin
+log/*
+mxnet/
+auto_test/result.csv
+auto_test/An*
+auto_test/*/
+json/
+json_for_auto_test/*
+npy_for_auto_test/*
+./result.xlsx
+*\#*
